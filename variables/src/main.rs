@@ -4,5 +4,4 @@ fn main() {
     let (missiles, ready): (i32, i32) = (MAX_MISSILES, READY_AMOUNT);
     println!("Firing {} of my {} missiles...", ready, missiles);
     println!("{} missiles left", missiles-ready);
-
 }
